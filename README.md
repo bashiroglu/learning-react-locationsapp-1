@@ -4,7 +4,8 @@ The name of project: learning-react-locationsapp-1
 
 Used Language concepts:
 
-1. 
+1. React Router Dom
+2. React Portals
 
 Addable features:
 
