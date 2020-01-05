@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Card from '../../shared/components/elements/card/Card';
-import Button from '../../shared/components/elements/form/Button';
+import Button from '../../shared/components/elements/formelements/button/Button';
 import Modal from '../../shared/components/elements/modal/Modal';
 import Map from '../../shared/components/elements/map/Map';
 
