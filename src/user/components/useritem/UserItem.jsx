@@ -10,17 +10,8 @@ const UserItem = props => {
     <li className="user-item">
       <Card className="user-item__content">
         <Link to={`/${props.id}/places`}>
-          {/*  by Link we say that we some
-        click here take to that address but to wrapping many comps, we say when
-        someone click whole div */}
           <div className="user-item__image">
-            <Avatar
-              image={props.image}
-              alt={
-                props.name
-              } /* these 
-            avatar and card is componets for styling purposes */
-            />
+            <Avatar image={props.image} alt={props.name} />
           </div>
           <div className="user-item__info">
             <h2>{props.name}</h2>

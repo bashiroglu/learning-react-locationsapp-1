@@ -13,9 +13,7 @@ body {
   background: #4d4d4d;
 }
 
-.slide-in-left-enter {/* this classes make sense when
-   one look at documentation of react-transition-group 
-   (https://reactcommunity.org/react-transition-group/css-transition) */
+.slide-in-left-enter {
   transform: translateX(-100%);
 }
 
