@@ -7,8 +7,6 @@ const SideDrawer = props => {
   const content = <aside className="side-drawer">{props.children}</aside>;
 
   return ReactDOM.createPortal(content, document.getElementById('drawer-hook'));
-};/*ReactDOM.createPortal give us funct of adding comp outside of 
-root div, we simplu say add this content to this part, kinda render function in 
-app js but, we can sat ReactDOM.createPortal many times */
+};
 
 export default SideDrawer;
