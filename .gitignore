@@ -21,7 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-src/shared/components/elements/map/Map.js
-src/places/components/PlaceList.js
-src/places/components/PlaceItem.js
-public/index.html
+
