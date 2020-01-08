@@ -11,6 +11,7 @@ import NewPlace from './places/pages/NewPlace';
 import UserPlaces from './places/pages/UserPlaces';
 import UpdatePlace from './places/pages/UpdatePlace';
 import MainNavigation from './shared/components/navigation/MainNavigation';
+import Auth from './user/pages/Auth';
 
 const App = () => {
   return (
@@ -31,6 +32,9 @@ const App = () => {
             {/* it makes difference 
           place of this route */}
             <UpdatePlace />
+          </Route>
+          <Route path="/auth">
+            <Auth />
           </Route>
           <Redirect to="/" />
         </Switch>
